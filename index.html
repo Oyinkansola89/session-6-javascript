@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript DOM Demo</title>
+</head>
+<body>
+    <h2>Use JavaScript to display data from a variable</h2>
+    <p>This example writes "The output from JavaScript is Exactly!" into an HTML element with id="demo":</p> 
+    <p id="demo"></p>
+    <script>
+        let a = 2 + 2;
+        let display ="";
+    switch (a) {
+        case 3:
+            display = 'Too small';
+            console.log( 'Too small' );
+            break;
+        case 4:
+            display = 'Exactly!' ;
+            break;
+        case 5:
+            display = 'Too Large' ;
+            console.log( 'Too Large' );
+            break;
+        default:
+            display = " I don't know such values";
+    }
+    document.getElementById("demo").innerHTML = "The output from JavaScript is  " + display;
+        </script>
+    
+    </body>
+</html>
