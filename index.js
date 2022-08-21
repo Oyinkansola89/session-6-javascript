@@ -5,12 +5,13 @@ function sayHey(person) {
   return firstName;
 }
 
-console.log(sayHey(firstName));
+sayHey(firstName);
 
 function greeting(someone) {
   return "hey " + someone + "!";
 }
-console.log(greeting(surnName));
+
+greeting(surnName);
 
 // arrow functions // const conversation = (person) => "Do you like playing " + person;
 
@@ -18,14 +19,23 @@ console.log(greeting(surnName));
 
 //its alwyays const not let when using arrow functions
 
-//function wagwan() {
-//("wagwan");
-//}
+function wagwan() {
+  "Hiyaa";
+}
 
-//function conversation() {
-//wagwan();
+wagwan();
 
-//("How are you");
-//}
+function conversation(topic, girl) {
+  return "Do you like " + topic + girl + " ?";
+}
 
-//conversation();
+conversation("Stir Fry ", "Oyinkan");
+
+// string, Numbers, Boolean, null, undefined
+const name = "Oyinkan";
+const age = 32;
+const rating = 4.5;
+const isCool = true;
+const x = null;
+const y = undefined;
+let z; //intitalisation
