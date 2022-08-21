@@ -2,14 +2,15 @@ const firstName = "Oyinkan";
 const surnName = "Olatunji";
 
 function sayHey(person) {
-  return "girl ";
+  return firstName;
 }
-sayHey(firstName);
 
-function greeting(person) {
-  return "hey! " + "" + person;
+console.log(sayHey(firstName));
+
+function greeting(someone) {
+  return "hey " + someone + "!";
 }
-greeting(surnName);
+console.log(greeting(surnName));
 
 // arrow functions // const conversation = (person) => "Do you like playing " + person;
 
@@ -17,13 +18,14 @@ greeting(surnName);
 
 //its alwyays const not let when using arrow functions
 
-function wagwan() {
-  console.log("wagwan");
-}
+//function wagwan() {
+//("wagwan");
+//}
 
-function conversation() {
-  wagwan();
-  console.log("How are you");
-}
+//function conversation() {
+//wagwan();
 
-conversation();
+//("How are you");
+//}
+
+//conversation();
