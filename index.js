@@ -16,3 +16,14 @@ greeting(surnName);
 //                          conversation('oyinkan')              //called here
 
 //its alwyays const not let when using arrow functions
+
+function wagwan() {
+  console.log("wagwan");
+}
+
+function conversation() {
+  wagwan();
+  console.log("How are you");
+}
+
+conversation();
