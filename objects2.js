@@ -13,27 +13,23 @@
 // //-----------Task 1 - Objects----------------------------
 
 const personA = {
-    firstName :"Monique",
-    likes:'Pizza',
-    age: 40
-}
+  firstName: "Monique",
+  likes: "Pizza",
+  age: 40,
+};
 
 const personB = {
-    firstName :"Vivienne",
-    likes:'Rice'
-}
-console.log('Initial Values')
-console.log('Before');
-
+  firstName: "Vivienne",
+  likes: "Rice",
+};
 console.log(personA.firstName);
 console.log(personA.likes);
-console.log(personA.age);
-// console.log(personB.firstName);
-// console.log(personB.like);
+console.log(personB.firstName);
+console.log(personB.likes);
 
-// personA.firstName = 'Stacy';
-// console.log('After Values')
+personA.firstName = "Stacy";
+console.log("After Values");
 
-// console.log('After value change');
-// console.log(personA.firstName);
-// console.log(personB.firstName);
+console.log("After value change");
+console.log(personA.firstName);
+console.log(personB.firstName);
