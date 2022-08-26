@@ -22,7 +22,7 @@
 
 //arrow function version of grades function:
 const grades = (marks) => {
-  // not using paranthesis as there is only one parameter
+  //not using paranthesis as there is only one parameter
   if (marks > 90) {
     return "A+";
   }

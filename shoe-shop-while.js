@@ -2,12 +2,21 @@ let i = 1;
 let total = 0;
 // While Loop
 while (i <= 10) {
-  total = i;
   i = i + 1;
-  console.log(i);
+  total = i;
+  //console.log(i);
 }
-console.log("From the while loop");
-"Total: " + total;
+//console.log("From the while loop");
+//console.log(`Total: ${total}`);
 
-let random = Math.floor(Math.random() * 50);
-console.log(random);
+//let random = Math.floor(Math.random() * 50);
+//console.log(random);
+
+let k = 1;
+let amount = 0;
+while (k <= 21) {
+  k = k + 1;
+  amount = k;
+  //console.log(k);
+}
+console.log(`amount: ${amount}`);
