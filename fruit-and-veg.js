@@ -10,7 +10,7 @@ const fruitAndVeg = [
 
 let noAvocados = [];
 
-for (let i = 0; i < fruitAndVeg.length; i++) {
+for (let i = 4; i < fruitAndVeg.length; i++) {
   if (fruitAndVeg[i] !== "avocado") {
     noAvocados.push(fruitAndVeg[i]);
   }

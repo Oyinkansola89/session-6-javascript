@@ -4,14 +4,15 @@ const fruitAndVeg = [
   "banana",
   "kiwi",
   "avocado",
-  "celey",
+  "celery",
   "aubergine",
 ];
 
 //Filter method 1 -
-const noAvocados = fruitAndVeg.filter((fruit) => !fruit.includes("e")); //array methods
-//const noAvocados = fruitAndVeg.filter((fruit) => fruit.includes("avocado"));
-//console.log("\nThis list does not contain avocados \n\n" + noAvocados);
+//const noAvocados = fruitAndVeg.filter((fruit) => !fruit.includes("e")); //array methods
+//console.log("\nThis list does not contain fruits with the letter e \n\n" + noAvocados);
+const noAvocados = fruitAndVeg.filter((fruit) => !fruit.includes("avocado"));
+console.log("\nThis list does not contain avocados \n\n" + noAvocados);
 
 //Filter method 2 -
 //const noAvocados = fruitAndVeg.filter((fruit) => {
