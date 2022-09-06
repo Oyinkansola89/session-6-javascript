@@ -1,0 +1,23 @@
+body {
+  background-color: beige;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+.table {
+  width: 50%;
+}
+#youtube-video {
+  width: 550%;
+  height: 315%;
+}
+/*For mobile desktop: */
+@media only screen and (min-width: 800px) {
+  #image {
+    height: 200%;
+    max-width: 100%;
+  }
+}
